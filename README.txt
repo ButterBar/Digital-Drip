@@ -1,0 +1,1 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b89e69e4-eb24-4414-8041-07b0219be28a/deploy-status)](https://app.netlify.com/sites/digitaldrip/deploys)
