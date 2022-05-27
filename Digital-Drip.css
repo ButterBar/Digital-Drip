@@ -127,5 +127,28 @@
   .u-section-1 .u-text-2 {
     margin-top: 19px;
   }
-}.mint-button {
+}
+
+.nft-art-gen-section button.mint, .nft-art-gen-section select{
+  background-color: #eac61e;
+  color:#204709;
+  border:#204709;
+  border-radius: 15px;
+}
+
+.nft-art-gen-section{
+  display:block !important;
+}
+
+@media (max-width: 767px) {
+  .nft-art-gen-section {
+    margin-left:auto;
+    margin-right:auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .nft-art-gen-section {
+    margin-left:0;
+  }
 }
