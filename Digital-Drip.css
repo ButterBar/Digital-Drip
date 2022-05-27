@@ -173,11 +173,10 @@
 
 
 .nft-art-gen-mint-progress{
-  display:block;
+  display:inline-block;
   color: #ffffff !important;
-  margin:10px;
   line-height: 1.2 !important;
   font-weight: 500 !important;
   font-size: 1.125rem;
-  margin-left:0 !important;
+  text-align:left !important;
 }
