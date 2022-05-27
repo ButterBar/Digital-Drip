@@ -146,10 +146,10 @@
 }
 
 @media (min-width: 992px) {
-  .nft-art-gen-section button, .nft-art-gen-section select, .nft-art-gen-mint-progress,{
+  .nft-art-gen-section button, .nft-art-gen-section select, .nft-art-gen-mint-progress{
     margin-left:0 !important;
-    text-align: left !important;
-    }
+    text-align:left !important;
+  }
 }
 
 .nft-art-gen-section{
@@ -157,7 +157,7 @@
 }
 
 .nft-art-gen-section button, .nft-art-gen-section select{
-  display:inline-block !important;
+  display:block !important;
   margin-bottom:5px;
   background-color: #eac61e !important;
   border-radius: 10px !important;
@@ -175,7 +175,7 @@
 
 
 .nft-art-gen-mint-progress{
-  display:block;
+  display:inline-block;
   color: #ffffff !important;
   line-height: 1.2 !important;
   font-weight: 500 !important;
