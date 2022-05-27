@@ -130,21 +130,21 @@
 }
 
 
-/* @media (max-width: 767px) {
-  .nft-art-gen-section {
+@media (max-width: 767px) {
+  .nft-art-gen-section button, .nft-art-gen-section select{
     margin-left:auto;
     margin-right:auto;
   }
 }
 
 @media (min-width: 992px) {
-  .nft-art-gen-section {
+  .nft-art-gen-section button, .nft-art-gen-section select{
     margin-left:0;
   }
-} */
+}
 
 .nft-art-gen-section{
-  flex-flow:column wrap !important;
+  flex-flow:column wrap-reverse !important;
 }
 
 .nft-art-gen-section button, .nft-art-gen-section select{
