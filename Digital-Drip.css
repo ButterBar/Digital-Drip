@@ -158,8 +158,10 @@
   text-align: center;
   font-size: 1rem !important;
   height:auto !important;
-  line-height: auto !important;
   font-weight:bold !important;
+  line-height: auto !important;
+  font-weight: 500;
+  font-size: 1.125rem;
 }
 
 
@@ -167,4 +169,7 @@
   text-align: center;
   color: #ffffff !important;
   margin:10px;
+  line-height: 1.2 !important;
+  font-weight: 500;
+  font-size: 1.125rem;
 }
