@@ -135,7 +135,7 @@
   .nft-art-gen-section button, .nft-art-gen-section select, .nft-art-gen-mint-progress{
     margin-left:auto !important;
     margin-right:auto !important;
-    text-align: center !important;
+    text-align: center;
   }
 
   #title, #subtitle{
@@ -148,7 +148,7 @@
 @media (min-width: 992px) {
   .nft-art-gen-section button, .nft-art-gen-section select, .nft-art-gen-mint-progress,{
     margin-left:0 !important;
-    text-align: left;
+    text-align:left;
   }
 }
 
@@ -180,5 +180,4 @@
   line-height: 1.2 !important;
   font-weight: 500 !important;
   font-size: 1.125rem;
-  text-align:left;
 }
