@@ -175,7 +175,7 @@
 
 
 .nft-art-gen-mint-progress{
-  display:inline-block;
+  display:block;
   color: #ffffff !important;
   line-height: 1.2 !important;
   font-weight: 500 !important;
