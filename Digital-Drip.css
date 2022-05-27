@@ -146,7 +146,7 @@
 
 @media (min-width: 992px) {
   .nft-art-gen-section button, .nft-art-gen-section select, .nft-art-gen-mint-progress,{
-    margin-left:0;
+    margin-left:0 !important;
   }
 }
 
