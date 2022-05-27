@@ -133,11 +133,14 @@
   background-color: #eac61e;
   color:#204709;
   border:#204709;
-  border-radius: 15px;
+  border-radius: 10px;
+  display:flow;
+  line-height: 110%;
 }
 
 .nft-art-gen-section{
   display:block !important;
+  background-color: none !important;
 }
 
 @media (max-width: 767px) {
