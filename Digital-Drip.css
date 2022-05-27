@@ -131,14 +131,14 @@
 
 
 @media (max-width: 767px) {
-  .nft-art-gen-section button, .nft-art-gen-section select, .nft-art-gen-mint-progress{
+  .nft-art-gen-section button, .nft-art-gen-section select, .nft-art-gen-mint-progress, .title, .subtitle{
     margin-left:auto;
     margin-right:auto;
   }
 }
 
 @media (min-width: 992px) {
-  .nft-art-gen-section button, .nft-art-gen-section select, .nft-art-gen-mint-progress{
+  .nft-art-gen-section button, .nft-art-gen-section select, .nft-art-gen-mint-progress, .title, .subtitle{
     margin-left:0;
   }
 }
