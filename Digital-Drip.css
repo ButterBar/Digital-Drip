@@ -127,24 +127,32 @@
   .u-section-1 .u-text-2 {
     margin-top: 19px;
   }
+
+  #title, #subtitle{
+    text-align: center !important;
+  }
 }
 
 
 @media (max-width: 767px) {
-  .nft-art-gen-section button, .nft-art-gen-section select, .nft-art-gen-mint-progress, .title, .subtitle{
-    margin-left:auto;
-    margin-right:auto;
+  .nft-art-gen-section button, .nft-art-gen-section select, .nft-art-gen-mint-progress{
+    margin-left:auto !important;
+    margin-right:auto !important;
+  }
+
+  #title, #subtitle{
+    text-align: center !important;
   }
 }
 
 @media (min-width: 992px) {
-  .nft-art-gen-section button, .nft-art-gen-section select, .nft-art-gen-mint-progress, .title, .subtitle{
+  .nft-art-gen-section button, .nft-art-gen-section select, .nft-art-gen-mint-progress,{
     margin-left:0;
   }
 }
 
 .nft-art-gen-section{
-  flex-flow:column wrap-reverse !important;
+  flex-flow:column-reverse wrap !important;
 }
 
 .nft-art-gen-section button, .nft-art-gen-section select{
